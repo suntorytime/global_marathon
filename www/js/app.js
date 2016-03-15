@@ -10,7 +10,7 @@ angular.module('starter', ['ionic',
   'starter.services',
   'auth0',
   'angular-storage',
-  'angular-jwt', 'ngStorage'])
+  'angular-jwt', 'ngStorage', 'chart.js'])
 
 // .constant('ApiEndpoint', {
 //   url: 'http://localhost:8100/api'

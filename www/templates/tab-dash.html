@@ -25,6 +25,21 @@
       <ion-slide>
         <div class="box big-blue">
           <div class="description padding">
+            How does your progress stack up?
+          </div>
+          <div class="main-text">
+           <div class="card">
+             <div class="item item-text-wrap">
+                 <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-series="series" chart-options="{showTooltips: false}"></canvas>
+             </div>
+           </div>
+         </div>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="box big-blue">
+          <div class="description padding">
             What's the quick fix?
           </div>
           <div class="main-text">
@@ -40,6 +55,7 @@
           </button>
         </div>
       </ion-slide>
+
     </ion-slide-box>
   </ion-content>
 </ion-view>

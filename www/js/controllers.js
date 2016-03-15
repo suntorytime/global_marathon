@@ -31,11 +31,25 @@ angular.module('starter.controllers', [])
   var arr = JSON.parse( localStorage.getItem('profile') );
   var averageSteps = arr["averageDailySteps"];
   var userAge = arr["age"];
+  var requiredStepsAge = "";
   var evaluation = "";
   var evaluationWithAge = "";
   var recommendation = "";
   var recommendationsArray = Recommendations.all();
   var randomValue = recommendationsArray[Math.floor(Math.random() * recommendationsArray.length)]
+
+  if (userAge < 50) {
+    requiredStepsAge = 10000;
+  }
+  else {
+    requiredStepsAge = 8000;
+  }
+
+  $scope.labels = ["Me", "Country", "Age Group"];
+     $scope.series = ["Me", 'Country', "Age Group"];
+     $scope.data = [
+         [4000, 5117, requiredStepsAge]
+     ];
 
   // For steps evaluation with country. Average American walks 5117 steps/day.
   if (averageSteps < 3000) {
