@@ -1,0 +1,50 @@
+/* Empty. Add your own CSS if you like */
+.big-blue {
+  background-color: #00bfff;
+}
+
+.big-yellow {
+  background-color: #FFEF00;
+}
+
+.big-red {
+  background-color: #F51144;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.main-text {
+  font-size: 4em;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top: 50%;
+}
+
+.description {
+  text-align: left;
+  font-weight: bold;
+  width: 50%;
+}
+
+.slider {
+  height: 100%;
+  text-align: center;
+}
+
+.scroll {
+  height: 100%
+}
+
+i {
+  font-style: italic;
+}
+
+.button {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-top: 70%;
+}
