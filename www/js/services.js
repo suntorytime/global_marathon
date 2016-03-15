@@ -1,47 +1,26 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {
+.factory('Recommendations', function() {
   // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
-  // var chats = [{
-  //   id: 0,
-  //   name: 'Ben Sparrow',
-  //   lastText: 'You on your way?',
-  //   face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
-  // }, {
-  //   id: 1,
-  //   name: 'Max Lynx',
-  //   lastText: 'Hey, it\'s me',
-  //   face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
-  // }, {
-  //   id: 2,
-  //   name: 'Andrew Jostlin',
-  //   lastText: 'Did you get the ice cream?',
-  //   face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
-  // }, {
-  //   id: 3,
-  //   name: 'Adam Bradleyson',
-  //   lastText: 'I should buy a boat',
-  //   face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
-  // }, {
-  //   id: 4,
-  //   name: 'Perry Governor',
-  //   lastText: 'Look at my mukluks!',
-  //   face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
-  // }];
+  var recommendations = [{
+    id: 0,
+    text: 'Schedule it in. Set aside time for your walk just as you would a business meeting',
+  }, {
+    id: 1,
+    text: 'Be prepared. Keep a pair of walking shoes in your car and walk whenever you can.',
+  }, {
+    id: 2,
+    text: 'Have a Plan B. If you miss a day know exactly how you’re going to get back on track.',
+  }];
 
   return {
     all: function() {
-      return chats;
+      return recommendations;
     },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
-    },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
+    get: function(recommendationId) {
+      for (var i = 0; i < recommendations.length; i++) {
+        if (recommendations[i].id === parseInt(recommendationId)) {
+          return recommendations[i];
         }
       }
       return null;

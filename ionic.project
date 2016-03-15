@@ -1,4 +1,10 @@
 {
   "name": "basic-sample",
-  "app_id": ""
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDV6pj61XZ_FTpfKCoSHYS2xDYfq8wIDho&location=-33.8670522,151.1957362&radius=1500"
+    }
+  ]
 }

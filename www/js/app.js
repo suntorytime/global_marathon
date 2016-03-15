@@ -12,6 +12,10 @@ angular.module('starter', ['ionic',
   'angular-storage',
   'angular-jwt', 'ngStorage'])
 
+// .constant('ApiEndpoint', {
+//   url: 'http://localhost:8100/api'
+// })
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -28,6 +32,12 @@ angular.module('starter', ['ionic',
 
 .config(function($stateProvider, $urlRouterProvider, authProvider,
   jwtInterceptorProvider, $httpProvider) {
+
+  // We need to setup some parameters for http requests
+    // These three lines are all you need for CORS support
+    $httpProvider.defaults.useXDomain = true;
+    $httpProvider.defaults.withCredentials = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
