@@ -48,7 +48,7 @@ angular.module('starter.controllers', [])
   $scope.labels = ["Me", "Country", "Age Group"];
      $scope.series = ["Me", 'Country', "Age Group"];
      $scope.data = [
-         [4000, 5117, requiredStepsAge]
+         [averageSteps, 5117, requiredStepsAge]
      ];
 
   // For steps evaluation with country. Average American walks 5117 steps/day.
