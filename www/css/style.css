@@ -49,3 +49,9 @@ i {
   font-weight: bold;
   margin-top: 70%;
 }
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
