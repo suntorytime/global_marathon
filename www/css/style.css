@@ -11,45 +11,43 @@
   background-color: #F51144;
 }
 
-.box {
+.slider, .scroll, .box {
   height: 100%;
+}
+
+.slider {
+  text-align: center;
+}
+
+.box {
   width: 100%;
   color: #FFFFFF;
 }
 
-.main-text {
+.main-text, .recommendation {
   font-size: 4em;
-  font-weight: bold;
-  vertical-align: middle;
-  margin-top: 35%;
   line-height: 1em;
+}
+
+.main-text, .description, .recommendation {
+  font-weight: bold;
+}
+
+.main-text, .recommendation {
+  vertical-align: middle;
+}
+
+.main-text {
+  margin-top: 35%;
 }
 
 .description {
   text-align: left;
-  font-weight: bold;
   width: 50%;
 }
 
 .recommendation {
-  font-size: 4em;
-  font-weight: bold;
-  vertical-align: middle;
   margin-top: 23%;
-  line-height: 1em;
-}
-
-.slider {
-  height: 100%;
-  text-align: center;
-}
-
-.scroll {
-  height: 100%
-}
-
-i {
-  font-style: italic;
 }
 
 .button {
@@ -62,4 +60,8 @@ i {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+i {
+  font-style: italic;
 }
