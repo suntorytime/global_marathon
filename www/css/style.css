@@ -11,6 +11,14 @@
   background-color: #F51144;
 }
 
+.big-green {
+  background-color: #77dd77;
+}
+
+.big-purple {
+  background-color: #b19cd9;
+}
+
 .slider, .scroll, .box {
   height: 100%;
 }

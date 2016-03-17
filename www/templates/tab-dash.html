@@ -1,74 +1,25 @@
 <ion-view hide-nav-bar="true" hide-back-button="true" view-title="home">
   <ion-content ng-controller="DashCtrl">
     <ion-slide-box on-slide-changed="slideHasChanged($index)">
+
       <ion-slide>
-        <div class="box big-red">
-          <div class="description padding">
-            Compared with the rest of the <i>United States</i>, you're doing
-          </div>
-          <div class="logo padding">
-            <i class="icon ion-earth"> Marathon</i>
-          </div>
-          <div class="main-text">
-            {{$storage["userResult"]}}
-          </div>
-        </div>
-      </ion-slide>
-      <ion-slide>
-        <div class="box big-yellow">
-          <div class="description padding">
-            Compared with the rest of your <i>age group</i>, you're doing
-          </div>
-          <div class="logo padding">
-            <i class="icon ion-earth"> Marathon</i>
-          </div>
-          <div class="main-text">
-            {{$storage["userResultWithAge"]}}
-          </div>
-        </div>
+        <ng-include src="'templates/_country-measure.html'"></ng-include>
       </ion-slide>
 
       <ion-slide>
-        <div class="box big-blue">
-          <div class="description padding">
-            How does your progress stack up?
-          </div>
-          <div class="logo padding">
-            <i class="icon ion-earth"> Marathon</i>
-          </div>
-          <div class="main-text">
-           <div class="card">
-             <div class="item item-text-wrap">
-                 <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-series="series" chart-options="{showTooltips: false}"></canvas>
-             </div>
-           </div>
-         </div>
-        </div>
+        <ng-include src="'templates/_age-measure.html'"></ng-include>
       </ion-slide>
 
       <ion-slide>
-        <div class="box big-blue">
-          <div class="description padding">
-            What's the quick fix?
-          </div>
-          <div class="logo padding">
-            <i class="icon ion-earth"> Marathon</i>
-          </div>
-          <div class="recommendation">
-            {{$storage["recommendation"]}}
-          </div>
-        </div>
+        <ng-include src="'templates/_personal-graph.html'"></ng-include>
       </ion-slide>
 
       <ion-slide>
-        <div class="box big-blue">
-          <div class="logo padding">
-            <i class="icon ion-earth"> Marathon</i>
-          </div>
-          <button class="button button-light button-large" ng-click="logout()">
-          <i class="icon ion-log-out"></i>
-          </button>
-        </div>
+        <ng-include src="'templates/_quick-fix.html'"></ng-include>
+      </ion-slide>
+
+      <ion-slide>
+        <ng-include src="'templates/_logout.html'"></ng-include>
       </ion-slide>
 
     </ion-slide-box>
