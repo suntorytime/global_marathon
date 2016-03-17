@@ -11,6 +11,7 @@ Illustration of a typical PG&E Energy Report
 Inspiration: This developer is interested in how to present information in simple but surprising ways to the user. In this spirit, the developer for Global Marathon was inspired by PG&E's Home Energy Report. It presents actionable information and graphs comparing one to communities.
 
 How to run Global Marathon:
+
 1. Clone the Global Marathon repo
 
 2. cd into Global Marathon repo
