@@ -31,6 +31,14 @@
   width: 50%;
 }
 
+.recommendation {
+  font-size: 4em;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top: 23%;
+  line-height: 1em;
+}
+
 .slider {
   height: 100%;
   text-align: center;

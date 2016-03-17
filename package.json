@@ -28,7 +28,8 @@
   "cordovaPlugins": [
     "cordova-plugin-inappbrowser",
     "cordova-plugin-geolocation",
-    "org.apache.cordova.inappbrowser"
+    "org.apache.cordova.inappbrowser",
+    "cordova-plugin-whitelist"
   ],
   "cordovaPlatforms": [
     "ios"
