@@ -12,7 +12,11 @@ Inspiration: This developer is interested in how to present information in simpl
 
 How to run Global Marathon:
 1. Clone the Global Marathon repo
+
 2. cd into Global Marathon repo
+
 3. Run $ npm install -g cordova ionic
+
 3. Run ionic serve --l
+
 4. Default browser will show the app emulating in both ios and android
