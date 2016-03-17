@@ -10,7 +10,7 @@ angular.module('starter', ['ionic',
   'starter.services',
   'auth0',
   'angular-storage',
-  'angular-jwt', 'ngStorage'])
+  'angular-jwt', 'ngStorage', 'chart.js'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -28,6 +28,12 @@ angular.module('starter', ['ionic',
 
 .config(function($stateProvider, $urlRouterProvider, authProvider,
   jwtInterceptorProvider, $httpProvider) {
+
+  // We need to setup some parameters for http requests
+    // These three lines are all you need for CORS support
+    $httpProvider.defaults.useXDomain = true;
+    $httpProvider.defaults.withCredentials = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -61,35 +67,6 @@ angular.module('starter', ['ionic',
       }
     }
   })
-
-  // .state('tab.chats', {
-  //     url: '/chats',
-  //     views: {
-  //       'tab-chats': {
-  //         templateUrl: 'templates/tab-chats.html',
-  //         controller: 'ChatsCtrl'
-  //       }
-  //     }
-  //   })
-  //   .state('tab.chat-detail', {
-  //     url: '/chats/:chatId',
-  //     views: {
-  //       'tab-chats': {
-  //         templateUrl: 'templates/chat-detail.html',
-  //         controller: 'ChatDetailCtrl'
-  //       }
-  //     }
-  //   })
-
-  // .state('tab.account', {
-  //   url: '/account',
-  //   views: {
-  //     'tab-account': {
-  //       templateUrl: 'templates/tab-account.html',
-  //       controller: 'AccountCtrl'
-  //     }
-  //   }
-  // });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');

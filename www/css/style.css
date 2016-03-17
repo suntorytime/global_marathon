@@ -21,13 +21,22 @@
   font-size: 4em;
   font-weight: bold;
   vertical-align: middle;
-  margin-top: 50%;
+  margin-top: 35%;
+  line-height: 1em;
 }
 
 .description {
   text-align: left;
   font-weight: bold;
   width: 50%;
+}
+
+.recommendation {
+  font-size: 4em;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top: 23%;
+  line-height: 1em;
 }
 
 .slider {
@@ -47,4 +56,10 @@ i {
   font-size: 2.8em;
   font-weight: bold;
   margin-top: 70%;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
