@@ -14,6 +14,10 @@ Inspiration: This developer is interested in how to present information in simpl
 ![alt tag](https://github.com/suntorytime/global_marathon/blob/master/References/sample_activity.png?raw=true)
 ![alt tag](https://github.com/suntorytime/global_marathon/blob/master/References/sample_graph.png?raw=true)
 
+See [an example](https://github.com/suntorytime/global_marathon/blob/master/References/Global%20Marathon%20-%20Interface%20Designs.pdf "Interface Designs")
+
+See [an example](https://github.com/suntorytime/global_marathon/blob/master/References/Global%20Marathon%20-%20Use%20Cases.pdf "Use Cases")
+
 How to run Global Marathon:
 
 1. Clone the Global Marathon repo
