@@ -34,3 +34,5 @@ How to run Global Marathon:
 3. Run ionic serve --l
 
 4. Your default browser will show the app emulating in both ios and android
+
+*Note: because the app uses a swipe interface, please click and hold the mouse to emulate a swipe maneuver.
