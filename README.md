@@ -7,11 +7,12 @@ Global Marathon provides an easy-to-understand interface to compare Fitbit activ
 ## Technologies
 HTML, JS, CSS, Ionic, Angular, Chart.js, Auth0, Fitbit API
 
+## Inspiration
+
 ![alt tag](http://www.pgecurrents.com/wp-content/uploads/2014/05/600x400_home_energy_report2.jpg)
 
 Illustration of a typical PG&E Energy Report
 
-## Inspiration
 This developer is interested in how to present information in simple but surprising ways to the user, like PG&E's Home Energy Report. Global Marathon akin to the report presents actionable information and graphs comparing one to communities.
 
 ![alt tag](https://github.com/suntorytime/global_marathon/blob/master/References/login.png?raw=true)
