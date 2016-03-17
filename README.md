@@ -2,7 +2,7 @@
 
 ## Description
 
-Global Marathon is a hybrid mobile/web app that provides an easy-to-understand interface to compare Fitbit activity data against communities. It also provides actionable encouragement.
+Global Marathon provides an easy-to-understand interface to compare Fitbit activity data against communities. It also provides actionable encouragement. Because it is a hybrid web/mobile app, it is ready to deploy to Android and iOS.
 
 ## Technologies
 HTML, JS, CSS, Ionic, Angular, Chart.js, Auth0, Fitbit API
@@ -12,7 +12,7 @@ HTML, JS, CSS, Ionic, Angular, Chart.js, Auth0, Fitbit API
 Illustration of a typical PG&E Energy Report
 
 ## Inspiration
-This developer is interested in how to present information in simple but surprising ways to the user. In this spirit, the developer for Global Marathon was inspired by PG&E's Home Energy Report. It presents actionable information and graphs comparing one to communities.
+This developer is interested in how to present information in simple but surprising ways to the user, like PG&E's Home Energy Report. Global Marathon akin to the report presents actionable information and graphs comparing one to communities.
 
 ![alt tag](https://github.com/suntorytime/global_marathon/blob/master/References/login.png?raw=true)
 ![alt tag](https://github.com/suntorytime/global_marathon/blob/master/References/sample_activity.png?raw=true)
