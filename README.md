@@ -4,7 +4,7 @@ Global Marathon is a hybrid mobile/web app that provides an easy-to-understand i
 
 Technologies: HTML, JS, CSS, Ionic, Angular, Chart.js, Auth0, Fitbit API
 
-http://www.pgecurrents.com/wp-content/uploads/2014/05/600x400_home_energy_report2.jpg
+![alt tag](http://www.pgecurrents.com/wp-content/uploads/2014/05/600x400_home_energy_report2.jpg)
 Illustration of a typical PG&E Energy Report
 
 Inspiration: This developer is interested in how to present information in simple but surprising ways to the user. In this spirit, the developer for Global Marathon was inspired by PG&E's Home Energy Report. It presents actionable information and graphs comparing one to communities.
